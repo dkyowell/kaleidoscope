@@ -12,6 +12,7 @@
 		224F45521F044BA30068D7BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224F45501F044BA30068D7BF /* Main.storyboard */; };
 		224F45541F044BA30068D7BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 224F45531F044BA30068D7BF /* Assets.xcassets */; };
 		224F45571F044BA30068D7BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 224F45551F044BA30068D7BF /* LaunchScreen.storyboard */; };
+		224F455F1F044DE30068D7BF /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224F455E1F044DE30068D7BF /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		224F45531F044BA30068D7BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		224F45561F044BA30068D7BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		224F45581F044BA30068D7BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		224F455E1F044DE30068D7BF /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				224F45501F044BA30068D7BF /* Main.storyboard */,
 				224F45531F044BA30068D7BF /* Assets.xcassets */,
 				224F45551F044BA30068D7BF /* LaunchScreen.storyboard */,
+				224F455E1F044DE30068D7BF /* CircleView.swift */,
 				224F45581F044BA30068D7BF /* Info.plist */,
 			);
 			path = Kaleidoscope;
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				224F455F1F044DE30068D7BF /* CircleView.swift in Sources */,
 				224F454F1F044BA30068D7BF /* ViewController.swift in Sources */,
 				224F454D1F044BA30068D7BF /* AppDelegate.swift in Sources */,
 			);
@@ -269,7 +273,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6CE6K8937E;
 				INFOPLIST_FILE = Kaleidoscope/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dovetail.com.Kaleidoscope;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -282,7 +288,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6CE6K8937E;
 				INFOPLIST_FILE = Kaleidoscope/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dovetail.com.Kaleidoscope;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -310,6 +318,7 @@
 				224F455D1F044BA30068D7BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
